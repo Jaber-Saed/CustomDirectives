@@ -4,9 +4,12 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 
+import { SetBackGroundDirective } from '../app/CustomDirective/setBackGround.directive'
+
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    SetBackGroundDirective
   ],
   imports: [
     BrowserModule,
