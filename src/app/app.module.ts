@@ -5,13 +5,17 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 
 import { SetBackGroundDirective } from '../app/CustomDirective/setBackGround.directive';
-import { HighlighDirective } from './CustomDirective/highligh.directive'
+import { HighlighDirective } from './CustomDirective/highligh.directive';
+import { HoverDirective } from './CustomDirective/hover.directive';
+import { BetterhighlightDirectiveTsDirective } from './CustomDirective/betterhighlight.directive.ts.directive'
 
 @NgModule({
   declarations: [
     AppComponent,
     SetBackGroundDirective,
-    HighlighDirective
+    HighlighDirective,
+    HoverDirective,
+    BetterhighlightDirectiveTsDirective
   ],
   imports: [
     BrowserModule,
