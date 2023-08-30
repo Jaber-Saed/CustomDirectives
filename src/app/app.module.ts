@@ -7,7 +7,8 @@ import { AppComponent } from './app.component';
 import { SetBackGroundDirective } from '../app/CustomDirective/setBackGround.directive';
 import { HighlighDirective } from './CustomDirective/highligh.directive';
 import { HoverDirective } from './CustomDirective/hover.directive';
-import { BetterhighlightDirectiveTsDirective } from './CustomDirective/betterhighlight.directive.ts.directive'
+import { BetterhighlightDirectiveTsDirective } from './CustomDirective/betterhighlight.directive.ts.directive';
+import { ClassDirective } from './class.directive'
 
 @NgModule({
   declarations: [
@@ -15,7 +16,8 @@ import { BetterhighlightDirectiveTsDirective } from './CustomDirective/betterhig
     SetBackGroundDirective,
     HighlighDirective,
     HoverDirective,
-    BetterhighlightDirectiveTsDirective
+    BetterhighlightDirectiveTsDirective,
+    ClassDirective
   ],
   imports: [
     BrowserModule,
